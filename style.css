@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.contenu{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+    display: flex;
+    height: 99vh;
+}
+.droite{
+    width: 500px;
+}
+.left{
+    width: 350px;
+    background-color: rgb(24, 1, 1);
+    color: white;    
+}
+form{
+    color: white;
+}
+i{
+    position: absolute;
+    right: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: rgb(24, 1, 1);
+    color: white;
+    width: 90%;
+    outline: none;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+}
+input{
+    width: 100px;
+}
+.label{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+label{
+    font-size: 10px;
+
+}
+.font{
+    font-size: 12px;
+}
+.name{
+    font-size: 12px;
+    margin-left: 30px;
+    color: rgb(243, 182, 102);
+}
+h3{
+    font-size: 16px;
+    margin-left: 30px;
+    margin: 20px;
+}
+h4{
+    font-size: 12px;
+    padding: 0px;
+    margin-left: 30px;
+}
+.bas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10PX;
+    margin-left: 30px;
+}
+input[type=submit]{
+    position: absolute;
+    margin-left: 30px;
+    width: 90px;
+    height: 35px;
+    color: whitesmoke;
+    background-color: rgb(243, 182, 102);
+    border: none;
+}
+.sous{
+    position: absolute;
+    margin-left: 30px;
+    bottom: 10PX;
+    font-size: 12px;
+    color: rgb(243, 182, 102);
+}
+.B1,.B3, .B4, .B5{
+    color: black;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 11px;
+}
+.B2{
+    color: black;
+    background-color: rgb(243, 182, 102);
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+span{
+    border: 1px solid;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    border: none;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: black;
+}
+input[type=text].ira{
+    border: none;
+    border-bottom: 2px solid rgb(243, 182, 102);
+}
+::placeholder{
+    color: white;
+    font-size: 13px;
+}
+@media screen and (max-width:700PX) {
+    .contenu{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+        margin: 0;
+        padding: 0;
+    }
+    .droite{
+        width: 350px;
+        height: 550px;
+    }
+    input[type=submit]{
+        position: relative;
+        top: 50%;
+        margin-bottom: 30px;
+    }
+    .sous{
+        position: relative;
+        margin-left: 30px;
+        bottom: 10PX;
+        font-size: 12px;
+        color: rgb(243, 182, 102);
+    }
+    i{
+        position: absolute;
+        font-size: 12px;
+        margin-left: 200px;
+        left: 112px;
+    }
+    h3{
+        margin: 20px;
+        padding-left: 10px;
+    }
+}
