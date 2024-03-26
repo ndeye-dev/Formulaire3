@@ -150,10 +150,10 @@ input[type=text].ira{
         padding: 0;
     }
     .left{
-        width: 90%;
+        width: 95%;
     }
     .droite{
-        width: 350px;
+        width: 354px;
         height: 550px;
     }
     input[type=submit]{
