@@ -23,9 +23,10 @@ body{
     width: 500px;
 }
 .left{
-    width: 350px;
+    width: 50%;
     background-color: rgb(24, 1, 1);
-    color: white;    
+    color: white;  
+     
 }
 form{
     color: white;
@@ -35,7 +36,7 @@ i{
     right: 5px;
     font-size: 12px;
     margin-bottom: 10px;
-    margin-right: 20px;
+    margin-right: 4%;
 }
 
 input[type=text] {
@@ -98,7 +99,7 @@ input[type=submit]{
 .sous{
     position: absolute;
     margin-left: 30px;
-    bottom: 10PX;
+    bottom: 20%;
     font-size: 12px;
     color: rgb(243, 182, 102);
 }
@@ -115,9 +116,12 @@ input[type=submit]{
     color: black;
     background-color: rgb(243, 182, 102);
     border: 1px solid;
-    padding: 10px;
+    padding: 5px;
     border-radius: 20px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 span{
     border: 1px solid;
@@ -145,6 +149,9 @@ input[type=text].ira{
         margin: 0;
         padding: 0;
     }
+    .left{
+        width: 90%;
+    }
     .droite{
         width: 350px;
         height: 550px;
@@ -160,6 +167,9 @@ input[type=text].ira{
         bottom: 10PX;
         font-size: 12px;
         color: rgb(243, 182, 102);
+    }
+    .bas{
+        padding: 5px;
     }
     i{
         position: absolute;
