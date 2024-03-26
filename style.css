@@ -150,10 +150,11 @@ input[type=text].ira{
         padding: 0;
     }
     .left{
-        width: 95%;
+        width: 100%;
+
     }
     .droite{
-        width: 354px;
+        width: 370px;
         height: 550px;
     }
     input[type=submit]{
@@ -175,7 +176,7 @@ input[type=text].ira{
         position: absolute;
         font-size: 12px;
         margin-left: 200px;
-        left: 112px;
+        left: 118px;
     }
     h3{
         margin: 20px;
